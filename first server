@@ -1,0 +1,9 @@
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+  })
+//get method is used to serve only there is no interaction with the server
+
+app.listen(3000)
