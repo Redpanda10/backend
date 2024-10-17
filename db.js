@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 
-// define mongodb connection url
+// define mongodb connection url (by default)
 const mongoURL='mongodb://localhost:27017/hotels'
 
 //connection setup
