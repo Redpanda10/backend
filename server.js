@@ -34,7 +34,6 @@ app.post('/car',async(req,res)=>{
         res.status(500).json({error:'internal error'})
     }
 })
-// delete
 
 
 
