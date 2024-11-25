@@ -12,6 +12,8 @@ app.use(bodyparser.json())
 app.get('/', (req, res) => {
     res.send('Hello World!')
 })
+
+
 //among the crud
 
 
@@ -33,10 +35,9 @@ app.post('/car',async(req,res)=>{
         console.log(err)
         res.status(500).json({error:'internal error'})
     }
-})
 
+    })
 
-
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`)
+app.listen(port,()=>{
+    console.log(`server is running on port ${port}`)
 })
